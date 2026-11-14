@@ -1,0 +1,1 @@
+{"assumptions":"Expected path without transport errors; actual dispatch log governs; feed pagination and fallback reads are additional.","authority":"LIVE_SWIFTAPI","planned_attest_dispatches":1128,"planned_http_dispatches_excluding_ledger_and_revocation_feed":2444,"planned_slots":376,"retry_count":0,"revocation_feed_reads_minimum":0,"snapshot_reads_minimum":6}

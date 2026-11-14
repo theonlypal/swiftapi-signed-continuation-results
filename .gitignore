@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+release-assets/
+verification-output/
+*.tar.gz

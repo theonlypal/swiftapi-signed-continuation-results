@@ -1,0 +1,1 @@
+{"device":"cuda","download":false,"fallback":false,"inference_executed":false,"loaded_by_this_call":true,"mode":"FRESH_MODEL_EXECUTION","model_loaded":true,"quantization":false,"status":"WARM","weights_sha256_verified":true}

@@ -1,0 +1,1 @@
+{"cursor":3,"jti":"jti_331b15e4f2aa45e7bcba0093c5f39f7d","message":"Attestation jti_331b15e4f2aa45e7bcba0093c5f39f7d has been revoked. Any execution attempts will be blocked.","reason":"One approved development disposable grant","revoked":true,"revoked_at":"2026-11-14T00:02:25.214273+00:00","revoked_by":"system"}

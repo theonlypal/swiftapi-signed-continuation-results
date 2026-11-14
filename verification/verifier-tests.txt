@@ -1,0 +1,11 @@
+test_archive_hash_mismatch_rejected (test_verify.EvidenceVerifierTests.test_archive_hash_mismatch_rejected) ... ok
+test_ledger_uses_canonical_configuration (test_verify.EvidenceVerifierTests.test_ledger_uses_canonical_configuration) ... ok
+test_prediction_file_exact_hash (test_verify.EvidenceVerifierTests.test_prediction_file_exact_hash) ... ok
+test_relative_paths (test_verify.EvidenceVerifierTests.test_relative_paths) ... ok
+test_runtime_signature_tamper_rejected (test_verify.EvidenceVerifierTests.test_runtime_signature_tamper_rejected) ... ok
+test_unsafe_paths_rejected (test_verify.EvidenceVerifierTests.test_unsafe_paths_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK

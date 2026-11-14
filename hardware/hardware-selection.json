@@ -1,0 +1,8 @@
+{
+  "decision": "READY",
+  "reason": "QUALIFIED_CAPACITY",
+  "data_center_id": "EU-RO-1",
+  "gpu_type_id": "NVIDIA L4",
+  "gpu_selection": "ORDERED_QUALIFIED_SECURE_CAPACITY",
+  "data_center_selection": "LEXICOGRAPHIC_SECURE_CAPACITY"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "run": "PRIMARY",
+  "installed_sdk_version": "1.4.0",
+  "verified_receipts": 11,
+  "model_receipts_with_non_eos_identity": 9,
+  "prediction_matches": 11,
+  "prediction_arms": 11,
+  "ledger_status": "JOINED_WITH_API_LIMITATIONS",
+  "result_lines": [
+    "[VALID] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [R]",
+    "[SIGNED_DENIAL] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [V0]",
+    "[MISSING_GRANT] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [V0]",
+    "[INVALID_SIGNATURE] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [V0]",
+    "[EXPIRED] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [V0]",
+    "[REUSED] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [V0]",
+    "[WRONG_SCOPE] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [V0]",
+    "[WRONG_REQUEST] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [V0]",
+    "[UNKNOWN_KEY] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [operational]",
+    "[MALFORMED_KEY] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [operational]",
+    "[REVOKED] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [1/1] [V0]"
+  ],
+  "full_model_forward_pass_reproduced": false,
+  "numerical_gate_recomputation": "SUPPLIED_FULL_VERIFIER_RECORDS_NOT_REEXECUTED",
+  "manifest_files": 301
+}

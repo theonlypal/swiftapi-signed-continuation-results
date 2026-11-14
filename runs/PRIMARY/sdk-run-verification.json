@@ -1,0 +1,646 @@
+{
+  "verifier": "INSTALLED_SWIFTAPI_SDK_NO_TORCH",
+  "trust": "Supplied public anchors; software claims, not host attestation",
+  "status": "PASS",
+  "expected_purpose": "PREREGISTERED_STUDY",
+  "expected_mode": "FRESH_MODEL_EXECUTION",
+  "verified_receipts": 11,
+  "planned_count": 11,
+  "receipts": [
+    {
+      "receipt": "receipts/0000-VALID/receipt.json",
+      "receipt_sha256": "985f8a3583ca0a64c94612d601a7390ac05fb5ce8bc12fd8499df2ae621148ed",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "301b9003-21b8-486d-9c6e-6c771b2e2a4b",
+        "class": "R",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "revocation_authority_signed": false,
+        "tokens": [
+          19,
+          151645
+        ],
+        "output_bytes": 1,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_VERIFIED",
+        "reason": "VERIFIED_EXACT_REQUEST"
+      },
+      "class": "R"
+    },
+    {
+      "receipt": "receipts/0001-SIGNED_DENIAL/receipt.json",
+      "receipt_sha256": "8fa26c5a53c017a7fd23cd6383788e6e35ff3b1967f7c83a0f44e4354c003350",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "7c63293e-738b-4630-81ad-98a9dcb51e06",
+        "class": "V0",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "revocation_authority_signed": false,
+        "tokens": [
+          151645
+        ],
+        "output_bytes": 0,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_NOT_VERIFIED",
+        "reason": "AUTHORITY_DENIED"
+      },
+      "class": "V0"
+    },
+    {
+      "receipt": "receipts/0002-MISSING_GRANT/receipt.json",
+      "receipt_sha256": "a3140bd7f92a35dfa094e9e0a2f12ca49ae7bf53b7ffa77053c33b20aacdd023",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "38177aa6-a18f-4b25-bebf-a3ba20b02264",
+        "class": "V0",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "revocation_authority_signed": false,
+        "tokens": [
+          151645
+        ],
+        "output_bytes": 0,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_NOT_VERIFIED",
+        "reason": "MISSING_PERMISSION"
+      },
+      "class": "V0"
+    },
+    {
+      "receipt": "receipts/0003-INVALID_SIGNATURE/receipt.json",
+      "receipt_sha256": "c42519a067351f81e045bfcffd2e33eba848fadb9d60707ca28973392001a76a",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "92d49c65-8f3f-4048-9b7d-a0d172195a54",
+        "class": "V0",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "revocation_authority_signed": false,
+        "tokens": [
+          151645
+        ],
+        "output_bytes": 0,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_NOT_VERIFIED",
+        "reason": "INVALID_AUTHORITY_SIGNATURE"
+      },
+      "class": "V0"
+    },
+    {
+      "receipt": "receipts/0004-EXPIRED/receipt.json",
+      "receipt_sha256": "ac6104b6275cf19c83e85922f9a1dcbe2ec2172846436821af475563d533aa96",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "e48489f0-4618-4216-a848-db19e89aed73",
+        "class": "V0",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "revocation_authority_signed": false,
+        "tokens": [
+          151645
+        ],
+        "output_bytes": 0,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_NOT_VERIFIED",
+        "reason": "GRANT_EXPIRED"
+      },
+      "class": "V0"
+    },
+    {
+      "receipt": "receipts/0005-REUSED/receipt.json",
+      "receipt_sha256": "6aefb8b9676818c72a6397740f7e497cf3ae06b19e9a8e29cf69c9721c0dff69",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "7b941f9f-e260-4bbb-bae8-4b6c05bf1336",
+        "class": "V0",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "revocation_authority_signed": false,
+        "tokens": [
+          151645
+        ],
+        "output_bytes": 0,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_NOT_VERIFIED",
+        "reason": "REPLAYED_REQUEST"
+      },
+      "class": "V0"
+    },
+    {
+      "receipt": "receipts/0006-WRONG_SCOPE/receipt.json",
+      "receipt_sha256": "36763225b8e29e96c78c03a526f91f3a65c6e96701a81076e21d028f0af50914",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "35e5d178-73a5-4040-8fd5-8035ceadfc64",
+        "class": "V0",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "revocation_authority_signed": false,
+        "tokens": [
+          151645
+        ],
+        "output_bytes": 0,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_NOT_VERIFIED",
+        "reason": "GRANT_BINDING_MISMATCH"
+      },
+      "class": "V0"
+    },
+    {
+      "receipt": "receipts/0007-WRONG_REQUEST/receipt.json",
+      "receipt_sha256": "a36351fce0638eb6c2efe035f2ef9e322f88aff887f8f8fc76ae842ad1732233",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "588898e0-a4f6-44c4-a7da-866fc6f7c73a",
+        "class": "V0",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "revocation_authority_signed": false,
+        "tokens": [
+          151645
+        ],
+        "output_bytes": 0,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_NOT_VERIFIED",
+        "reason": "GRANT_BINDING_MISMATCH"
+      },
+      "class": "V0"
+    },
+    {
+      "receipt": "receipts/0008-UNKNOWN_KEY/receipt.json",
+      "receipt_sha256": "de986c94ad2fddc3278597f8237e3ae1dc1baf3bb763e70c45f9891abb93a760",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "59bfecb7-6eb3-42cd-bae9-a27240335360",
+        "class": "operational",
+        "response_scope": "NO_COMPLETED_MODEL_RESPONSE",
+        "runtime_signature": "PASS",
+        "authority_signature": "NOT_APPLICABLE",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "execution_outcome": "OPERATIONAL_NOT_A_VOID"
+      },
+      "class": "operational"
+    },
+    {
+      "receipt": "receipts/0009-MALFORMED_KEY/receipt.json",
+      "receipt_sha256": "d3f81af0f702a03192d5f4f5e88ab86b04dc5610bdf9269ba8acb6d6b13792e2",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "16e76e3e-1cad-439c-969f-8c0040046c89",
+        "class": "operational",
+        "response_scope": "NO_COMPLETED_MODEL_RESPONSE",
+        "runtime_signature": "PASS",
+        "authority_signature": "NOT_APPLICABLE",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "Historical runtime report, not independently authority-signed",
+        "execution_outcome": "OPERATIONAL_NOT_A_VOID"
+      },
+      "class": "operational"
+    },
+    {
+      "receipt": "receipts/0010-REVOKED/receipt.json",
+      "receipt_sha256": "f9d85418b93257d480183bd1747688030dece20948c44744e06190419ac68c8e",
+      "result": {
+        "status": "PASS",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "execution_id": "60aa99b7-7a37-4e02-905b-9b6f805e2e26",
+        "class": "V0",
+        "response_scope": "COMPLETE_TO_NATIVE_EOS",
+        "runtime_signature": "PASS",
+        "authority_signature": "CHECKED_PRESENTED_GRANT_AND_CONNECTIONS",
+        "asset_hashes": "PASS",
+        "physical_execution_attested": false,
+        "full_model_forward_pass_reproduced": false,
+        "sdk_version_declared": "1.4.0",
+        "classifier_sha256_declared": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+        "classifier_first_sdk_version": "1.4.0",
+        "expected_max_grant_age_seconds": 60,
+        "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+        "authority_evidence_kind": "LIVE_SWIFTAPI_AUTHORITY",
+        "production_authority": true,
+        "numerical_boundary_replay": "NOT_PERFORMED_LIGHT_VERIFIER",
+        "archived_score_source": "NOT_CHECKED_LIGHT_VERIFIER",
+        "revocation_scope": "AUTHORITY_SIGNED_ENTRY",
+        "revocation_authority_signed": true,
+        "tokens": [
+          151645
+        ],
+        "output_bytes": 0,
+        "non_eos_unchanged": true,
+        "permission": "PERMISSION_NOT_VERIFIED",
+        "reason": "AUTHORITY_REVOKED"
+      },
+      "class": "V0"
+    }
+  ],
+  "prediction_verification": {
+    "status": "VERIFIED",
+    "author_predictions_sha256": "8c0cf6818a91524fbebc1c36be258be9e706a15e8a9ba168a8be978c7040ae26",
+    "run": "PRIMARY",
+    "score": {
+      "status": "MATCH",
+      "arms": {
+        "VALID": {
+          "prediction": {
+            "class_counts": {
+              "R": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "R": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "SIGNED_DENIAL": {
+          "prediction": {
+            "class_counts": {
+              "V0": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "V0": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "MISSING_GRANT": {
+          "prediction": {
+            "class_counts": {
+              "V0": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "V0": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "INVALID_SIGNATURE": {
+          "prediction": {
+            "class_counts": {
+              "V0": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "V0": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "EXPIRED": {
+          "prediction": {
+            "class_counts": {
+              "V0": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "V0": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "REUSED": {
+          "prediction": {
+            "class_counts": {
+              "V0": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "V0": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "WRONG_SCOPE": {
+          "prediction": {
+            "class_counts": {
+              "V0": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "V0": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "WRONG_REQUEST": {
+          "prediction": {
+            "class_counts": {
+              "V0": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "V0": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "UNKNOWN_KEY": {
+          "prediction": {
+            "class_counts": {
+              "operational": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "operational": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "MALFORMED_KEY": {
+          "prediction": {
+            "class_counts": {
+              "operational": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "operational": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        },
+        "REVOKED": {
+          "prediction": {
+            "class_counts": {
+              "V0": 1
+            }
+          },
+          "planned": 1,
+          "observed": 1,
+          "observed_class_counts": {
+            "V0": 1
+          },
+          "components": {
+            "class_counts": "MATCH",
+            "first_token": "NOT_PREDICTED",
+            "output_bytes": "NOT_PREDICTED",
+            "generation_complete": "NOT_PREDICTED"
+          },
+          "status": "MATCH",
+          "fully_predicted": false
+        }
+      },
+      "arms_predicted": 11,
+      "arms_not_predicted": 0,
+      "every_scheduled_arm_fully_predicted": false,
+      "scoring": "per arm over final counts; blanks are NOT_PREDICTED; a mixed prediction is not scored per slot",
+      "comparison_scope": {
+        "kind": "REGISTERED_COMPARISON",
+        "registered_comparison": true,
+        "purpose": "PREREGISTERED_STUDY",
+        "mode": "FRESH_MODEL_EXECUTION",
+        "authority": "LIVE_SWIFTAPI",
+        "predicted_conditions": {
+          "purpose": "PREREGISTERED_STUDY",
+          "mode": "FRESH_MODEL_EXECUTION",
+          "authority": "LIVE_SWIFTAPI"
+        },
+        "differs_in": [],
+        "meaning": "The sealed predictions are compared with the registered run they describe."
+      }
+    }
+  },
+  "mac_ledger": {
+    "status": "JOINED_WITH_API_LIMITATIONS",
+    "findings": [],
+    "counts": {
+      "observed_issued_jtis": 33,
+      "observed_approved": 32,
+      "observed_denied": 1,
+      "authority_scoped_delta": 33,
+      "exact_scope_delta_matches_run": true,
+      "new_revocations_in_feed": 1,
+      "expected_run_revocations": 1,
+      "exact_revocation_delta_matches_run": true
+    },
+    "source_archive_binding": "HASH_DECLARED_PENDING_ARCHIVE_REQUIRED_FOR_RECOMPUTATION"
+  }
+}

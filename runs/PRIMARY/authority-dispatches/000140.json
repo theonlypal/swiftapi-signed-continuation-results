@@ -1,0 +1,1 @@
+{"before_revoke_post":true,"observed_at":1794614544.7159111,"remaining":{"authenticated":5,"public_read":28},"required":{"authenticated":4,"public_read":25},"slot":"REVOKED","stage":"PACING_REVOKE_CAPACITY_CHECK"}

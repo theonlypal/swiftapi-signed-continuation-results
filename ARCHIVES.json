@@ -1,0 +1,20 @@
+{
+  "PRIMARY": {
+    "filename": "PRIMARY-evidence.tar.gz",
+    "bytes": 5106317,
+    "sha256": "513abb80379de6ee95fd159bb320d205a81e531689cd83fef3ae8f2d6cb5f1e0",
+    "manifest_sha256": "b246b2d0b7fa31d37a000b0a3f2a940614c51bc0e0588779ee40099983ab727c",
+    "receipt_count": 11,
+    "archive_includes_run_approval": true,
+    "loose_files_include_run_approval": false
+  },
+  "SECONDARY": {
+    "filename": "SECONDARY-evidence.tar.gz",
+    "bytes": 271042289,
+    "sha256": "d56b37d25a2c84311bd52335eb1bf14cab20c3291e3aad34765025172c721709",
+    "manifest_sha256": "49668db4192c074fed9a6e16c0a1c5ac9be5dcb1b9b6a83038df2fa6b8033700",
+    "receipt_count": 376,
+    "archive_includes_run_approval": true,
+    "loose_files_include_run_approval": false
+  }
+}

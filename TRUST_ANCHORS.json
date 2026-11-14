@@ -1,0 +1,16 @@
+{
+  "source_tag": "https://github.com/theonlypal/swiftapi-signed-continuation/tree/v1.0.0",
+  "source_commit": "d7bf2b88db464696a394c6ddad0f73618c47be8d",
+  "service_source_sha256": "1fefa84d9974905643ea490c02a8ef5f3bb4b9839042c07069a128c00efbe083",
+  "authority_public_key": "jajZXZ0R3CUWkE5/5Mxx5Y76CdsSzaPDuT7aWnooZSk=",
+  "runtime_public_keys": {
+    "PRIMARY": "tldg2dayxENQD7+3N6uMF5iiW3ElkSkOMY4LyX3ZjVo=",
+    "SECONDARY": "XiNxm9676MRW7+gPwBdLEM7grYj47lQfeNYJ5x9bP/8="
+  },
+  "sdk_version": "1.4.0",
+  "sdk_wheel_sha256": "3afa5b4da3427dcf1c856c2314b5859fd0250f2a384e41f7f811dfd865ae7561",
+  "classifier_sha256": "c17a7a37f0d935195b69c446da3a5ecfe36ab71539228dd9f798686d075de43c",
+  "author_predictions_sha256": "8c0cf6818a91524fbebc1c36be258be9e706a15e8a9ba168a8be978c7040ae26",
+  "expected_max_grant_age_seconds": 60,
+  "model_identifier": "sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a"
+}

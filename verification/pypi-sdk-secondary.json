@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "run": "SECONDARY",
+  "installed_sdk_version": "1.4.0",
+  "verified_receipts": 376,
+  "model_receipts_with_non_eos_identity": 376,
+  "prediction_matches": 2,
+  "prediction_arms": 2,
+  "ledger_status": "JOINED_WITH_API_LIMITATIONS",
+  "result_lines": [
+    "[VALID] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [188/188] [R]",
+    "[MISSING_GRANT] [sharthokrayanpal/PCCG-2-Qwen3-4B@a3b952458a46b5547ba3cec7d03a37b395bed03a] [188/188] [V0]"
+  ],
+  "full_model_forward_pass_reproduced": false,
+  "numerical_gate_recomputation": "SUPPLIED_FULL_VERIFIER_RECORDS_NOT_REEXECUTED",
+  "manifest_files": 9991
+}

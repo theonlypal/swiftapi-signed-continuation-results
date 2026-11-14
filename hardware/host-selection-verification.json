@@ -1,0 +1,8 @@
+{
+  "gpu_type_id": "NVIDIA L4",
+  "uuid": "GPU-c4c02756-7af2-259c-d2c0-1fc8ddbffa69",
+  "driver_version": "595.91.07",
+  "memory_mib": 23034,
+  "data_center_id": "EU-RO-1",
+  "hardware_attested": false
+}
